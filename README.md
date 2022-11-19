@@ -2,7 +2,7 @@
 
 [link to deployed app](https://dariusgarcia.github.io/calendar-scheduler/)
 
-![Screenshot of web app](./assets/work-scheduler.png)
+![Screenshot of web app](./Assets/work-scheduler.png)
 
 ## Description
 
