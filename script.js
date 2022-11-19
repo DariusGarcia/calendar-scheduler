@@ -10,9 +10,19 @@ $(document).ready(function () {
 	// useful when saving the description in local storage?
 	//
 
-	$('.saveBtn').on('click', function () {
+	// function to keep the different time slots in sync with the current time of day.
+	const timeHandler = () => {
+		var todayTime = dayjs()
+	}
+
+	// fetch the current time using the dayjs lib
+	$('#currentDay').text(dayjs().format('dddd, MMMM D, YYYY'))
+
+	$('.saveBtn').click(function () {
 		// get the submitted input text and the time slot and save it to localStorage
 		var inputText = $(this).siblings('.description').val()
+
+		// query selecting the elements with an id attribute
 		var time = $(this).parent().attr('id')
 
 		localStorage.setItem(time, inputText)
