@@ -6,11 +6,14 @@
 
 ## Description
 
-This web application allows users to take a timed quiz on different web development topics to help them become better developers.
+This web application allows users to add events to their work day calendar.
+
+- [x] Users can save events to a specific time slot.
+- [x] Users can edit the events which will be saved on every refresh.
 
 ### Usage
 
-To use this web app, click the start button to begin the quiz where you will have 30 seconds to answer all questions. High scores will be saved so you can view the current high scores.
+To use this web app, enter information in the provided time slots where then you can save them by clicking the save button to the right.
 
 ### Installation
 
