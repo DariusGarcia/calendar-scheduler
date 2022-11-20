@@ -45,6 +45,16 @@ textarea {
   border-top: 1px solid white;
 }
 
+#currentDay {
+  padding: .5rem;
+  background-color: gainsboro;
+  border-radius: 4px;
+  width: 24rem;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
 .hour {
   display: flex;
   justify-content: center;
