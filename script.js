@@ -11,7 +11,7 @@ $(document).ready(function () {
 		// grab each element that contains each time slot and do a loop iteration over each object
 		// to compare to the current time.
 		$('.time-block').each(() => {
-			let localStorageTime = parseInt($(this).attr('id').split('-')[1])
+			let localStorageTime = parseInt($(this).attr('id'))
 			if (localStorageTime > todayTime) {
 				$(this).addClass('future')
 				$(this).removeClass('present')
